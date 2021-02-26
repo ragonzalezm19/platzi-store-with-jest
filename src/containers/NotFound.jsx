@@ -6,7 +6,7 @@ class NotFound extends React.Component {
     console.log(this.props);
   }
   render() {
-    return <h1>NotFound</h1>;
+    return <h1>NotFound {this.props.location.pathname}</h1>;
   }
 }
 
